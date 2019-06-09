@@ -1,0 +1,1 @@
+main.py --eval false -ld spectrum --exp_name temp_exp --metrics mae

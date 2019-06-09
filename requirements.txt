@@ -1,0 +1,10 @@
+Cython
+cython
+numpy
+librosa>=0.6.2
+torch==1.0.0
+torchvision>=0.2.1
+madmom==0.16.1
+matplotlib>=2.2.0
+tqdm
+mir_eval
