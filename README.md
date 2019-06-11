@@ -1,8 +1,17 @@
 # DrummerNet
 
+This is supplementary material of "Deep Unsupervised Drum Transcription" by Keunwoo Choi and Kyunghyun Cho, ISMIR 2019 (Delft, Netherland). 
+
+[Paper on arXiv](https://arxiv.org/abs/1906.03697) | [Blog post](https://wordpress.com/post/keunwoochoi.wordpress.com/3805)   
+
+* What we provide: identical Pytorch code for the paper 
+* What we do **not** provide:
+  - pre-trained model
+  - drum stems that we used for the training
+
 ## Installation
 
-If you're using conda, to make sure it installs mkl:
+If you're using conda and wanna run it DrummerNet CPU, make sure it installs mkl because we'll need its fft module.
 ```bash
 conda install -c anaconda mkl
 ```
@@ -10,16 +19,17 @@ Then,
 ```bash
 pip install -r requirements.txt
 ```
-or something like
+
+Using conda, it would be something like this, but customize it yourself!
 ```bash
-conda install -c pytorch pytorch torchvision
+conda install -c pytorch pytorch torchvision 
 ```
 
 `Python3` required.
 
 ## Preparation
 #### Wav files for Drum Synthesizer
- * `data_drum_sources`: folder for isolated drum sources - 12 kits, 11 drum components.
+ * `data_drum_sources`: folder for isolated drum sources. 12 kits x 11 drum components are included.
  If you want to add more drum sources,
  
    - Add files and update `globals.py` accordingly. 
@@ -32,7 +42,9 @@ conda install -c pytorch pytorch torchvision
    - Note that as shown in `inst_src_sec.get_instset_drum()`, the last drum kit will be used in the test time only. 
 
 #### Training files
- * `data_drumstems`: nearly blank, placeholder for training data. I put one wav file and `files.txt` accordingly as an example.
+We unfortunately **cannot** provide the drum-stems that we used for the trained network in the paper.
+ * `/data_drumstems`: nearly blank folder, placeholder for training data. I put one wav file and `files.txt` as an minimum working example.
+ * [Mark Cartwright](http://dafx2018.web.ua.pt/papers/DAFx2018_paper_60.pdf)'s and [Richard Vogl](https://arxiv.org/abs/1806.06676)'s papers/codes provide a way to synthesize large-scale drum stems   
 
 #### Evaluation files, e.g., SMT
  * It is not part of the code, you have to download/process it by yourself.
@@ -168,7 +180,7 @@ You should try to remove the cache of pip/conda. Or just make a new environment.
 
 ## Requirement detail
 
-These aer the versions I used for the dependency.
+These are the exact versions I used for the dependency.
 ```
 Python==3.7.3
 Cython==0.29.6
@@ -183,5 +195,13 @@ tqdm==4.31.1
 mir_eval==0.5
 ```
 
-## Paper
-- ismir 2019 submitted, as well as [anonymous open review](https://openreview.net/forum?id=HklqvWaAYV)
+## Citation
+
+```
+@inproceedings{choi2019deep,
+  title={Deep Unsupervised Drum Transcription},
+  author={Choi, Keunwoo and Cho, Kyunghyun},
+  booktitle={Proceedings of the International Society for Music Information Retrieval Conference (ISMIR), Delft, Netherland},
+  year={2019}
+}
+```

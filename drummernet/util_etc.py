@@ -1,4 +1,3 @@
-from globals import *
 import torch.nn.functional as F
 
 

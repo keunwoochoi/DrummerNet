@@ -6,6 +6,7 @@ from globals import *
 import numpy as np
 import mir_eval
 import librosa
+import os
 from librosa import display
 
 from matplotlib import pyplot as plt
@@ -92,7 +93,7 @@ def pickpeak_fix(impulse):
     return librosa.samples_to_time(peak_idxs, sr=SR)  # [0] to make it (1, N) to (N)
 
 
-class DrumDatasetFolder():
+class DrumDatasetFolder:
     """Scan a folder that has a structure of
         ```
         root\annotations

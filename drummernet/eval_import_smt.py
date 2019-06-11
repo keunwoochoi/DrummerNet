@@ -3,6 +3,7 @@ import sys
 import xml.dom.minidom
 import shutil
 from globals import *
+import numpy as np
 
 
 def get_onsets(xml_annotation_file):

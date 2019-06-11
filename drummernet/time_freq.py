@@ -5,7 +5,6 @@ from globals import *
 import librosa
 import torch
 import torch.nn as nn
-import torch.nn.functional as F
 
 cqt_filter_fft = librosa.constantq.__cqt_filter_fft
 
@@ -62,19 +61,6 @@ def istft(stft_matrix, hop_length=None, win_length=None, window='hann',
     coeff = n_fft / float(
         hop_length) / 2.0  # -> this might go wrong if curretnly asserted values (especially, `normalized`) changes.
     return y / coeff
-
-
-# def onset(x):
-#     """
-#     A simple magnitude-based onset detector
-#
-#     Args:
-#         x (Tensor): (batch, freq, time)"""
-#
-#     def batch_diff(x):
-#         return x[:, :, 1:] - x[:, :, :-1]
-#
-#     return F.relu(batch_diff(x))
 
 
 class Melgramer():
@@ -139,8 +125,8 @@ class Melgramer():
         """x is perhaps (batch, freq, time).
         returns (batch, n_mel, time)"""
         mag_stfts = torch.stft(waveforms, self.n_fft,
-                             hop_length=self.hop_length,
-                             window=self.window).pow(2).sum(-1)  # (batch, n_freq, time)
+                               hop_length=self.hop_length,
+                               window=self.window).pow(2).sum(-1)  # (batch, n_freq, time)
         mag_stfts = torch.sqrt(mag_stfts + EPS)  # without EPS, backpropagating can yield NaN.
         # Project onto the pseudo-cqt basis
         mag_melgrams = torch.matmul(self.mel_fb, mag_stfts)
@@ -149,19 +135,7 @@ class Melgramer():
         return mag_melgrams
 
 
-# def _coo_to_float_tensor(coo_matrix):
-#     """"""
-#     values = np.abs(coo_matrix.data, dtype=NPDTYPE)
-#     indices = np.vstack([coo_matrix.row, coo_matrix.col])
-#
-#     i = torch.LongTensor(indices).to(DEVICE)
-#     v = torch.FloatTensor(values).to(DEVICE)
-#     shape = coo_matrix.shape
-#
-#     return torch.sparse.FloatTensor(i, v, torch.Size(shape))
-
-
-class PseudoCqt():
+class PseudoCqt:
     """A class to compute pseudo-CQT with Pytorch.
     API (+implementations) follows librosa
     (

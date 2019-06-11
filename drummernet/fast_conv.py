@@ -9,7 +9,7 @@ def complex_mul(t1, t2):
             t1 and t2 sizes should be the same and one of {2, 3, 4}-dimensional.
     """
 
-    if (t1.dim() != t2.dim()):
+    if t1.dim() != t2.dim():
         raise ValueError('dim mismatch in complex_mul, {} and {}'.format(t1.dim(), t2.dim()))
 
     if t1.dim() == 2:

@@ -223,7 +223,6 @@ class DrummerNetTrainer(object):
             np.save(os.path.join(self.result_folder, result_subfolder, 'f1_scores_%s.npy' % ddf_name),
                     arr=self.scores[ddf_name])
             # draw the scores so far
-            # thor: more drawing code, does it makes sense in its own file?
             plt.figure(figsize=(6, 2))
             plt.plot(self.scores[ddf_name][:, 0], self.scores[ddf_name][:, 1:])
             plt.legend(keys)

@@ -97,7 +97,6 @@ def stable_gumbel_softmax(x, dim, tau=1, hard=False):
     x = torch.exp(x)
 
     # apply gumbel softmax!
-
     return F.gumbel_softmax(x, tau=tau, hard=hard).view(original_size)
 
 
@@ -114,10 +113,6 @@ def relaxed_hardmax(x, dim=-1):
         y_hard.scatter_(1, ind.view(-1, 1), 1)
         return y_hard.view(*shape)
 
-        # max_vals = torch.max(x_in, dim=dim, keepdim=True)[0]
-        # return torch.floor(x_in / max_vals)
-
     x = x - torch.max(x, dim=dim, keepdim=True)[0].expand_as(x)
     y = F.softmax(x, dim=dim)
-    # print(y[0, 0, 15, :])
     return y + (_onehot(y, dim=dim) - y).detach()

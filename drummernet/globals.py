@@ -2,7 +2,7 @@ import os
 import torch
 import numpy as np
 
-if 'mac' in os.uname()[1]:
+if 'mac' in os.uname()[1]:  # if you're not using mac, you might need to change it.
     LAPTOP, SERVER = True, False
     N_WORKERS = 3
 else:
