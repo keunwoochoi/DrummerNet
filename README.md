@@ -4,7 +4,7 @@ This is supplementary material of "Deep Unsupervised Drum Transcription" by Keun
 
 [Paper on arXiv](https://arxiv.org/abs/1906.03697) | [Blog post](https://keunwoochoi.wordpress.com/2019/06/11/drummernet-deep-unsupervised-drum-transcription/)   
 
-* What we provide: identical Pytorch code for the paper 
+* What we provide: Pytorch implementation for the paper 
 * What we do **not** provide:
   - pre-trained model
   - drum stems that we used for the training

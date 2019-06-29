@@ -1,0 +1,289 @@
+\begin{thebibliography}{10}
+
+\bibitem{abdallah2006unsupervised}
+Samer~A Abdallah and Mark~D Plumbley.
+\newblock Unsupervised analysis of polyphonic music by sparse coding.
+\newblock {\em IEEE Transactions on neural Networks}, 17(1):179--196, 2006.
+
+\bibitem{berg2014unsupervised}
+Taylor Berg-Kirkpatrick, Jacob Andreas, and Dan Klein.
+\newblock Unsupervised transcription of piano music.
+\newblock In {\em Advances in neural information processing systems}, pages
+  1538--1546, 2014.
+
+\bibitem{blaauw2017neural}
+Merlijn Blaauw and Jordi Bonada.
+\newblock A neural parametric singing synthesizer.
+\newblock {\em arXiv preprint arXiv:1704.03809}, 2017.
+
+\bibitem{madmom}
+Sebastian B{\"o}ck, Filip Korzeniowski, Jan Schl{\"u}ter, Florian Krebs, and
+  Gerhard Widmer.
+\newblock {madmom: a new Python Audio and Music Signal Processing Library}.
+\newblock In {\em Proceedings of the 24th ACM International Conference on
+  Multimedia}, pages 1174--1178, Amsterdam, The Netherlands, 10 2016.
+
+\bibitem{bock2012evaluating}
+Sebastian B{\"o}ck, Florian Krebs, and Markus Schedl.
+\newblock Evaluating the online capabilities of onset detection methods.
+\newblock In {\em Proceedings of the International Society for Music
+  Information Retrieval Conference (ISMIR)}, pages 49--54, 2012.
+
+\bibitem{bock2012polyphonic}
+Sebastian B{\"o}ck and Markus Schedl.
+\newblock Polyphonic piano note transcription with recurrent neural networks.
+\newblock In {\em IEEE international conference on acoustics, speech and signal
+  processing (ICASSP)}, pages 121--124. IEEE, 2012.
+
+\bibitem{cartwright2018increasing}
+Mark Cartwright and Juan~Pablo Bello.
+\newblock Increasing drum transcription vocabulary using data synthesis.
+\newblock {\em Proc. of the 21st Int. Conference on Digital Audio Effects
+  (DAFx-18). Aveiro, Portugal}, 2018.
+
+\bibitem{chung2014empirical}
+Junyoung Chung, Caglar Gulcehre, Kyunghyun Cho, and Yoshua Bengio.
+\newblock Empirical evaluation of gated recurrent neural networks on sequence
+  modeling.
+\newblock In {\em NeurIPS - Workshop on Deep Learning, December 2014}, 2014.
+
+\bibitem{clevert2015fast}
+Djork-Arn{\'e} Clevert, Thomas Unterthiner, and Sepp Hochreiter.
+\newblock Fast and accurate deep network learning by exponential linear units
+  (elus).
+\newblock {\em arXiv preprint arXiv:1511.07289}, 2015.
+
+\bibitem{dittmar2014real}
+Christian Dittmar and Daniel G{\"a}rtner.
+\newblock Real-time transcription and separation of drum recordings based on
+  nmf decomposition.
+\newblock In {\em Proceedings of the conference on Digital Audio Effects
+  (DAFx)}, pages 187--194, 2014.
+
+\bibitem{engel2017neural}
+Jesse Engel, Cinjon Resnick, Adam Roberts, Sander Dieleman, Mohammad Norouzi,
+  Douglas Eck, and Karen Simonyan.
+\newblock Neural audio synthesis of musical notes with wavenet autoencoders.
+\newblock In {\em Proceedings of the 34th International Conference on Machine
+  Learning-Volume 70}, pages 1068--1077. JMLR. org, 2017.
+
+\bibitem{fitzgerald2010harmonic}
+Derry Fitzgerald.
+\newblock Harmonic percussive separation using median filtering.
+\newblock {\em Proceedings of the conference on Digital Audio Effects (DAFx),
+  Graz, Austria, 2010}, 2010.
+
+\bibitem{gajhede2016convolutional}
+Nicolai Gajhede, Oliver Beck, and Hendrik Purwins.
+\newblock Convolutional neural networks with batch normalization for
+  classifying hi-hat, snare, and bass percussion sound samples.
+\newblock In {\em Proceedings of the Audio Mostly 2016}, pages 111--115. ACM,
+  2016.
+
+\bibitem{gillet2006enst}
+Olivier Gillet and Ga{\"e}l Richard.
+\newblock Enst-drums: an extensive audio-visual database for drum signals
+  processing.
+\newblock In {\em Proceedings of the International Society for Music
+  Information Retrieval Conference (ISMIR)}, pages 156--159, 2006.
+
+\bibitem{gouyon2000use}
+Fabien Gouyon, Fran{\c{c}}ois Pachet, Olivier Delerue, et~al.
+\newblock On the use of zero-crossing rate for an application of classification
+  of percussive sounds.
+\newblock In {\em Proceedings of the conference on Digital Audio Effects
+  (DAFx-00), Verona, Italy}, 2000.
+
+\bibitem{hinton2015distilling}
+Geoffrey Hinton, Oriol Vinyals, and Jeff Dean.
+\newblock Distilling the knowledge in a neural network.
+\newblock {\em arXiv preprint arXiv:1503.02531}, 2015.
+
+\bibitem{kalal2010forward}
+Zdenek Kalal, Krystian Mikolajczyk, and Jiri Matas.
+\newblock Forward-backward error: Automatic detection of tracking failures.
+\newblock In {\em 20th International Conference on Pattern Recognition}, pages
+  2756--2759. IEEE, 2010.
+
+\bibitem{kanazawa2018learning}
+Angjoo Kanazawa, Shubham Tulsiani, Alexei~A Efros, and Jitendra Malik.
+\newblock Learning category-specific mesh reconstruction from image
+  collections.
+\newblock In {\em Proceedings of the European Conference on Computer Vision
+  (ECCV)}, pages 371--386, 2018.
+
+\bibitem{laroche2017drum}
+Cl{\'e}ment Laroche, H{\'e}l{\`e}ne Papadopoulos, Matthieu Kowalski, and
+  Ga{\"e}l Richard.
+\newblock Drum extraction in single channel audio signals using multi-layer non
+  negative matrix factor deconvolution.
+\newblock In {\em 2017 IEEE International Conference on Acoustics, Speech and
+  Signal Processing (ICASSP)}, pages 46--50. IEEE, 2017.
+
+\bibitem{lindsay2012drumkit}
+Henry Lindsay-Smith, Skot McDonald, and Mark Sandler.
+\newblock Drumkit transcription via convolutive nmf.
+\newblock In {\em International Conference on Digital Audio Effects (DAFx),
+  York, UK}, 2012.
+
+\bibitem{martins2016softmax}
+Andre Martins and Ramon Astudillo.
+\newblock From softmax to sparsemax: A sparse model of attention and
+  multi-label classification.
+\newblock In {\em International Conference on Machine Learning}, pages
+  1614--1623, 2016.
+
+\bibitem{brian_mcfee_2019_2564164}
+Brian McFee, Matt McVicar, Stefan Balke, Vincent Lostanlen, Carl Thomé, Colin
+  Raffel, Dana Lee, Kyungyun Lee, Oriol Nieto, Frank Zalkow, Dan Ellis, Eric
+  Battenberg, Ryuichi Yamamoto, Josh Moore, Ziyao Wei, Rachel Bittner, Keunwoo
+  Choi, nullmightybofo, Pius Friesch, Fabian-Robert Stöter, Thassilo, Matt
+  Vollrath, Siddhartha~Kumar Golu, nehz, Simon Waloschek, Seth, Rimvydas
+  Naktinis, Douglas Repetto, Curtis~"Fjord" Hawthorne, and CJ~Carr.
+\newblock librosa/librosa: 0.6.3, February 2019.
+
+\bibitem{moore2012introduction}
+Brian~CJ Moore.
+\newblock {\em An introduction to the psychology of hearing}.
+\newblock Brill, 2012.
+
+\bibitem{paszke2017automatic}
+Adam Paszke, Sam Gross, Soumith Chintala, Gregory Chanan, Edward Yang, Zachary
+  DeVito, Zeming Lin, Alban Desmaison, Luca Antiga, and Adam Lerer.
+\newblock Automatic differentiation in pytorch.
+\newblock In {\em Advances in neural information processing systems 2017
+  Workshop}, 2017.
+
+\bibitem{paulus2009drum}
+Jouni Paulus and Anssi Klapuri.
+\newblock Drum sound detection in polyphonic music with hidden markov models.
+\newblock {\em EURASIP Journal on Audio, Speech, and Music Processing},
+  2009:14, 2009.
+
+\bibitem{paulus2005drum}
+Jouni Paulus and Tuomas Virtanen.
+\newblock Drum transcription with non-negative spectrogram factorisation.
+\newblock In {\em Signal Processing Conference, 2005 13th European}, pages
+  1--4. IEEE, 2005.
+
+\bibitem{poliner2006discriminative}
+Graham~E Poliner and Daniel~PW Ellis.
+\newblock A discriminative model for polyphonic piano transcription.
+\newblock {\em EURASIP Journal on Advances in Signal Processing}, page 048317,
+  2006.
+
+\bibitem{Raffel14mir_eval}
+Colin Raffel, Brian Mcfee, Eric~J. Humphrey, Justin Salamon, Oriol Nieto, Dawen
+  Liang, Daniel P.~W. Ellis, C~Colin Raffel, and Eric~J. Humphrey.
+\newblock mir\_eval: a transparent implementation of common mir metrics.
+\newblock In {\em In Proceedings of the 15th International Society for Music
+  Information Retrieval Conference, ISMIR}, 2014.
+
+\bibitem{roebel2015automatic}
+Axel Roebel, Jordi Pons, Marco Liuni, and Mathieu Lagrangey.
+\newblock On automatic drum transcription using non-negative matrix
+  deconvolution and itakura saito divergence.
+\newblock In {\em IEEE International Conference on Acoustics, Speech and Signal
+  Processing (ICASSP)}, pages 414--418. IEEE, 2015.
+
+\bibitem{ronneberger2015u}
+Olaf Ronneberger, Philipp Fischer, and Thomas Brox.
+\newblock U-net: Convolutional networks for biomedical image segmentation.
+\newblock In {\em International Conference on Medical image computing and
+  computer-assisted intervention}, pages 234--241. Springer, 2015.
+
+\bibitem{sigtia2016end}
+Siddharth Sigtia, Emmanouil Benetos, and Simon Dixon.
+\newblock An end-to-end neural network for polyphonic piano music
+  transcription.
+\newblock {\em IEEE/ACM Transactions on Audio, Speech, and Language
+  Processing}, 24(5):927--939, 2016.
+
+\bibitem{slaney1998auditory}
+Malcolm Slaney.
+\newblock Auditory toolbox.
+\newblock {\em Interval Research Corporation, Tech. Rep}, 10(1998), 1998.
+
+\bibitem{southall2016automatic}
+Carl Southall, Ryan Stables, and Jason Hockman.
+\newblock Automatic drum transcription using bi-directional recurrent neural
+  networks.
+\newblock In {\em Proceedings of the International Society for Music
+  Information Retrieval Conference (ISMIR)}, pages 591--597, 2016.
+
+\bibitem{southall2017automatic}
+Carl Southall, Ryan Stables, and Jason Hockman.
+\newblock Automatic drum transcription for polyphonic recordings using soft
+  attention mechanisms and convolutional neural networks.
+\newblock In {\em Proceedings of the International Society for Music
+  Information Retrieval Conference (ISMIR)}, pages 606--612, 2017.
+
+\bibitem{southall2018player}
+Carl Southall, Ryan Stables, and Jason Hockman.
+\newblock Player vs transcriber: A game approach to data manipulation for
+  automatic drum transcription.
+\newblock In {\em Proceedings of the 19th International Society for Music
+  Information Retrieval Conference (ISMIR), Paris, France}, 2018.
+
+\bibitem{southall2017mdb}
+Carl Southall, Chih-Wei Wu, Alexander Lerch, and Jason Hockman.
+\newblock {MDB} drums--an annotated subset of medleydb for automatic drum
+  transcription.
+\newblock In {\em International Society for Music Information Retrieval
+  Conference (ISMIR) Late-breaking/demo session}, 2017.
+
+\bibitem{vogl2016recurrent}
+Richard Vogl, Matthias Dorfer, and Peter Knees.
+\newblock Recurrent neural networks for drum transcription.
+\newblock In {\em Proceedings of the International Society for Music
+  Information Retrieval Conference (ISMIR)}, pages 730--736, 2016.
+
+\bibitem{vogl2017drum}
+Richard Vogl, Matthias Dorfer, and Peter Knees.
+\newblock Drum transcription from polyphonic music with recurrent neural
+  networks.
+\newblock In {\em IEEE International Conference on Acoustics, Speech and Signal
+  Processing (ICASSP)}, pages 201--205. IEEE, 2017.
+
+\bibitem{vogl2018towards}
+Richard Vogl, Gerhard Widmer, and Peter Knees.
+\newblock Towards multi-instrument drum transcription.
+\newblock {\em Proc. of the 21st Int. Conference on Digital Audio Effects
+  (DAFx-18). Aveiro, Portugal}, 2018.
+
+\bibitem{wu2018review}
+Chih-Wei Wu, Christian Dittmar, Carl Southall, Richard Vogl, Gerhard Widmer,
+  Jason Hockman, Meinard Muller, and Alexander Lerch.
+\newblock A review of automatic drum transcription.
+\newblock {\em IEEE/ACM Transactions on Audio, Speech and Language Processing
+  (TASLP)}, 26(9):1457--1483, 2018.
+
+\bibitem{wu2015drum}
+Chih-Wei Wu and Alexander Lerch.
+\newblock Drum transcription using partially fixed non-negative matrix
+  factorization with template adaptation.
+\newblock {\em Proceedings of the International Society for Music Information
+  Retrieval Conference (ISMIR)}, pages 257--263, 2015.
+
+\bibitem{wu2017automatic}
+Chih-Wei Wu and Alexander Lerch.
+\newblock Automatic drum transcription using the student-teacher learning
+  paradigm with unlabeled music data.
+\newblock In {\em Proc. Int. Soc. Music Inf. Retrieval Conf.}, pages 613--620,
+  2017.
+
+\bibitem{wu2018labeled}
+Chih-Wei Wu and Alexander Lerch.
+\newblock From labeled to unlabeled data--on the data challenge in automatic
+  drum transcription.
+\newblock {\em Proceedings of the International Society for Music Information
+  Retrieval Conference (ISMIR)}, 2018.
+
+\bibitem{yoshii2012unsupervised}
+Kazuyoshi Yoshii and Masataka Goto.
+\newblock Unsupervised music understanding based on nonparametric bayesian
+  models.
+\newblock In {\em IEEE International Conference on Acoustics, Speech and Signal
+  Processing (ICASSP)}, pages 5353--5356, 2012.
+
+\end{thebibliography}
