@@ -2,7 +2,7 @@
 
 This is supplementary material of "Deep Unsupervised Drum Transcription" by Keunwoo Choi and Kyunghyun Cho, ISMIR 2019 (Delft, Netherland). 
 
-[Paper on arXiv](https://arxiv.org/abs/1906.03697) | [Blog post](https://keunwoochoi.wordpress.com/2019/06/11/drummernet-deep-unsupervised-drum-transcription/)   
+[Paper on arXiv](https://arxiv.org/abs/1906.03697) | [Blog post](https://keunwoochoi.wordpress.com/2019/06/11/drummernet-deep-unsupervised-drum-transcription/) | [Poster](https://github.com/keunwoochoi/DrummerNet/blob/master/DrummerNet-poster.pdf)  
 
 * What we provide: Pytorch implementation for the paper 
 * What we do **not** provide:
